@@ -66,8 +66,6 @@ ssh-keygen -t rsa -C 注册邮箱
 ssh -T git@github.com
 ```
 
-![image-20240611084053108](C:\Users\12194\AppData\Roaming\Typora\typora-user-images\image-20240611084053108.png)
-
 ## 文档/代码上传步骤
 
 ### 1.为仓库起别名
