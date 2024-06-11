@@ -90,8 +90,47 @@ git remote remove origin   //删除地址别名
 
 3.将本地仓库中的代码根据分支push到云端仓库中，云端仓库的版本也被更新，同本地仓库一致
 
+### 2.将内容上传到缓冲区
 
+```c
+git add README.md
+```
 
+### 3.将缓冲区中的内容提交到本地仓库中
+
+```c
+git commit -m "README" //""中的内容为注释
+```
+
+### 4.本地仓库中的内容push到云端
+
+```c
+git push origin master
+```
+
+![image-20240611085730971](C:\Users\12194\AppData\Roaming\Typora\typora-user-images\image-20240611085730971.png)
+
+![image-20240611085810608](C:\Users\12194\AppData\Roaming\Typora\typora-user-images\image-20240611085810608.png)
+
+### 5.一些其他命令
+
+```c
+git status     //查看状态
+git rm 文件名      //删除本地及文件及仓库中内容
+git restore 文件名    //回复删除的本地文件（rm直接删除的）
+
+```
+
+### 6. git pull
+
+当直接修改github上的代码会导致依赖关系破坏，需要使用git pull --rebase origin master代码
+
+```
+git pull --rebase origin master
+git rebase --abort   #忽略新版
+git rebase --skip    #需略旧版
+git rebase --continue    #版本合并
+```
 
 
 # MarkDwon语言
@@ -154,5 +193,4 @@ git remote remove origin   //删除地址别名
         int main(){
                 return 0;
         }
-
 ```
