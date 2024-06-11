@@ -1,4 +1,5 @@
 https://i.postimg.cc/ncJxwypF/git-init.png
+[![git-init.png](https://i.postimg.cc/ncJxwypF/git-init.png)](https://postimg.cc/9zJsDNDK)
 # GitHub
 
 ## 关键字查询
