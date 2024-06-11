@@ -1,5 +1,3 @@
-https://i.postimg.cc/ncJxwypF/git-init.png
-[![git-init.png](https://i.postimg.cc/ncJxwypF/git-init.png)](https://postimg.cc/9zJsDNDK)
 # GitHub
 
 ## 关键字查询
@@ -35,9 +33,9 @@ git中存在两个版本：正常情况下本地版本比云端版本新
 git init
 ```
 出现（master）即为正确
-![git init]("C:\Users\12194\Desktop\截图\git init.png")
+[![git-init.png](https://i.postimg.cc/ncJxwypF/git-init.png)](https://postimg.cc/9zJsDNDK)
 
-![git init](C:\Users\12194\Desktop\截图\git init.png)
+[![20240611000244.png](https://i.postimg.cc/QCg23MhX/20240611000244.png)](https://postimg.cc/RJFs14W8)
 
 ### 2.查看配置文件
 
@@ -45,8 +43,7 @@ git init
 git  config --list
 ```
 
-![image-20240611000412217](C:\Users\12194\AppData\Roaming\Typora\typora-user-images\image-20240611000412217.png)
-
+[![20240611084051.png](https://i.postimg.cc/kgHhLSKQ/20240611084051.png)](https://postimg.cc/DSqgX8C0)
 ### 3.修改config配置
 
 ```
@@ -59,13 +56,10 @@ git config --global user.email 邮箱号  //添加邮箱号
 ```c
 ssh-keygen -t rsa -C 注册邮箱
 ```
-
-![image-20240611083308754](C:\Users\12194\AppData\Roaming\Typora\typora-user-images\image-20240611083308754.png)
-
+[![20240611083305.png](https://i.postimg.cc/mr0J19rL/20240611083305.png)](https://postimg.cc/3yFnPdpV)
 找打密钥生成的位置，添加到github的seetinngs中的SSH key and GPG中的new ssh key中 
 
-![image-20240611084010921](C:\Users\12194\AppData\Roaming\Typora\typora-user-images\image-20240611084010921.png)
-
+[![20240611084001.png](https://i.postimg.cc/jds9ftR7/20240611084001.png)](https://postimg.cc/CdQmTyBh)
 ### 5.检测是否关联成功
 
 ```c
@@ -108,11 +102,8 @@ git commit -m "README" //""中的内容为注释
 ```c
 git push origin master
 ```
-
-![image-20240611085730971](C:\Users\12194\AppData\Roaming\Typora\typora-user-images\image-20240611085730971.png)
-
-![image-20240611085810608](C:\Users\12194\AppData\Roaming\Typora\typora-user-images\image-20240611085810608.png)
-
+[![20240611085707.png](https://i.postimg.cc/0j9t701s/20240611085707.png)](https://postimg.cc/0MHdsmNW)
+[![20240611085755.png](https://i.postimg.cc/7YsBTzBF/20240611085755.png)](https://postimg.cc/kBSN02Ps)
 ### 5.一些其他命令
 
 ```c
