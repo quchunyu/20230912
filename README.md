@@ -1,4 +1,4 @@
-
+https://i.postimg.cc/ncJxwypF/git-init.png
 # GitHub
 
 ## 关键字查询
